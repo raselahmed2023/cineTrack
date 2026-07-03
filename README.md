@@ -4,12 +4,6 @@ A modern and responsive **Movie Watchlist & Review** application built with **Re
 
 ---
 
-## 📸 Preview
-
-```text
-<img width="800" height="400" alt="Screenshot 2026-07-03 194129" src="https://github.com/user-attachments/assets/7a2c68c0-dd4d-4b09-80a5-f79e8ec33900" />
-```
-
 ## 🚀 Live Demo
 
 🔗 **Live Site:** https://cine-track-nine.vercel.app
@@ -45,7 +39,6 @@ GitHub: https://github.com/raselahmed2023/cineTrack
 
 - React.js
 - JavaScript (ES6+)
-- Vite
 - Tailwind CSS
 - LocalStorage API
 
