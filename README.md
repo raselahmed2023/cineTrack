@@ -1,21 +1,21 @@
-# 🎬 CineTrack
+#  CineTrack
 
 A modern and responsive **Movie Watchlist & Review** application built with **React.js**, **Vite**, and **Tailwind CSS**. CineTrack allows users to manage their personal movie collection, track watched movies, search and filter titles, and save data locally for a seamless experience.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
-🔗 **Live Site:** https://cine-track-nine.vercel.app
+ **Live Site:** https://cine-track-nine.vercel.app
 
 
-## 📂 Repository
+##  Repository
 
 GitHub: https://github.com/raselahmed2023/cineTrack
 
 ---
 
-## ✨ Features
+##  Features
 
 -  Responsive movie dashboard with a clean and modern UI
 -  Add new movies using a modal form
@@ -35,7 +35,7 @@ GitHub: https://github.com/raselahmed2023/cineTrack
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - React.js
 - JavaScript (ES6+)
@@ -44,7 +44,7 @@ GitHub: https://github.com/raselahmed2023/cineTrack
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 cineTrack/
@@ -71,7 +71,7 @@ cineTrack/
 ```
 
 
-## ⚙️ Installation & Local Setup
+##  Installation & Local Setup
 
 ### 1. Clone the repository
 
@@ -104,7 +104,7 @@ http://localhost:5173
 ```
 
 
-## 💾 Data Management
+##  Data Management
 
 This project uses hardcoded initial movie data together with the browser's **LocalStorage API** for client-side persistence.
 
