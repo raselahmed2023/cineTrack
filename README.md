@@ -9,12 +9,6 @@ A modern and responsive **Movie Watchlist & Review** application built with **Re
  **Live Site:** https://cine-track-nine.vercel.app
 
 
-##  Repository
-
-GitHub: https://github.com/raselahmed2023/cineTrack
-
----
-
 ##  Features
 
 -  Responsive movie dashboard with a clean and modern UI
