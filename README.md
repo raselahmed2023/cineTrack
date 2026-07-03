@@ -6,7 +6,7 @@ CineTrack is a responsive and minimalist Movie Watchlist & Review interface buil
 
 ## Live Demo
 
-Live URL: 
+Live URL: https://cine-track-nine.vercel.app
 
 
 ## Features
@@ -67,7 +67,7 @@ Follow these steps to run the project locally.
 ### 1. Clone the repository
 
 ```bash
-git clone your-github-repository-link
+git clone https://github.com/raselahmed2023/cineTrack
 ```
 
 ### 2. Go to the project folder
