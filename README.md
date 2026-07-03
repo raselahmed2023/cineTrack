@@ -6,11 +6,8 @@ CineTrack is a responsive and minimalist Movie Watchlist & Review interface buil
 
 ## Live Demo
 
-Live URL: Add your Vercel live link here
+Live URL: 
 
-## GitHub Repository
-
-Repository URL: Add your GitHub repository link here
 
 ## Features
 
@@ -95,32 +92,6 @@ npm run dev
 
 ```txt
 http://localhost:5173
-```
-
-## Available Scripts
-
-### Start development server
-
-```bash
-npm run dev
-```
-
-### Create production build
-
-```bash
-npm run build
-```
-
-### Preview production build locally
-
-```bash
-npm run preview
-```
-
-### Run lint check
-
-```bash
-npm run lint
 ```
 
 ## Data Management
