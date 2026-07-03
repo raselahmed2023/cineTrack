@@ -1,10 +1,17 @@
 function MovieCard({ movie, onToggleWatched, onDeleteMovie }) {
+  const fallbackPoster =
+    'https://placehold.co/500x750/0f172a/e2e8f0?text=No+Poster'
+
   return (
     <article className="group overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/80 shadow-xl shadow-black/20 transition duration-300 hover:-translate-y-1 hover:border-sky-400/60">
       <div className="relative overflow-hidden">
         <img
           src={movie.posterUrl}
           alt={movie.title}
+          onError={(event) => {
+            event.currentTarget.onerror = null
+            event.currentTarget.src = fallbackPoster
+          }}
           className="h-64 w-full object-cover transition duration-300 group-hover:scale-105"
         />
 

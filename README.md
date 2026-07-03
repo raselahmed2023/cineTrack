@@ -1,16 +1,133 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````md
+# CineTrack
 
-Currently, two official plugins are available:
+CineTrack is a responsive and minimalist Movie Watchlist & Review interface built with React.js and Tailwind CSS. It allows users to manage a dynamic movie collection, add new movies, search by title, filter by watched status, toggle watched/unwatched state, and delete movies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+Live URL: Add your Vercel live link here
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## GitHub Repository
 
-## Expanding the ESLint configuration
+Repository URL: Add your GitHub repository link here
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive movie dashboard with premium card layout
+- Add new movie using modal form
+- Client-side form validation
+- Search movies by title in real time
+- Filter movies by status:
+  - All Movies
+  - Watched
+  - Unwatched
+- Toggle movie status between watched and unwatched
+- Delete movies from the collection
+- LocalStorage persistence
+- Artificial loading spinner on initial load
+- Broken poster image fallback
+- Reset collection option
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- Vite
+- Tailwind CSS
+- LocalStorage
+
+## Project Structure
+
+```txt
+cinetrack/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── AddMovieForm.jsx
+│   │   ├── Loader.jsx
+│   │   ├── MovieCard.jsx
+│   │   └── MovieControls.jsx
+│   ├── data/
+│   │   └── initialMovies.js
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+````
+
+## Installation and Local Setup
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone your-github-repository-link
+```
+
+### 2. Go to the project folder
+
+```bash
+cd cinetrack
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open the app in browser
+
+```txt
+http://localhost:5173
+```
+
+## Available Scripts
+
+### Start development server
+
+```bash
+npm run dev
+```
+
+### Create production build
+
+```bash
+npm run build
+```
+
+### Preview production build locally
+
+```bash
+npm run preview
+```
+
+### Run lint check
+
+```bash
+npm run lint
+```
+
+## Data Management
+
+This project uses hardcoded initial movie data and browser LocalStorage for client-side persistence. When users add, delete, or update watched status, the changes are saved in LocalStorage and remain available after page refresh.
+
+
+
+
+
