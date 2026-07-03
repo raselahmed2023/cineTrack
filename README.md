@@ -7,14 +7,13 @@ A modern and responsive **Movie Watchlist & Review** application built with **Re
 ## 📸 Preview
 
 ```text
-<img width="1836" height="854" alt="Screenshot 2026-07-03 194129" src="https://github.com/user-attachments/assets/7a2c68c0-dd4d-4b09-80a5-f79e8ec33900" />
+<img width="800" height="400" alt="Screenshot 2026-07-03 194129" src="https://github.com/user-attachments/assets/7a2c68c0-dd4d-4b09-80a5-f79e8ec33900" />
 ```
 
 ## 🚀 Live Demo
 
 🔗 **Live Site:** https://cine-track-nine.vercel.app
 
----
 
 ## 📂 Repository
 
@@ -78,7 +77,6 @@ cineTrack/
 └── vite.config.js
 ```
 
----
 
 ## ⚙️ Installation & Local Setup
 
@@ -112,7 +110,6 @@ npm run dev
 http://localhost:5173
 ```
 
----
 
 ## 💾 Data Management
 
@@ -126,6 +123,4 @@ Users can:
 - Reset the movie collection
 
 All changes are automatically saved to LocalStorage and remain available even after refreshing the page.
-
----
 
