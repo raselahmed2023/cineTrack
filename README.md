@@ -1,43 +1,61 @@
+# 🎬 CineTrack
 
-````md
-# CineTrack
+A modern and responsive **Movie Watchlist & Review** application built with **React.js**, **Vite**, and **Tailwind CSS**. CineTrack allows users to manage their personal movie collection, track watched movies, search and filter titles, and save data locally for a seamless experience.
 
-CineTrack is a responsive and minimalist Movie Watchlist & Review interface built with React.js and Tailwind CSS. It allows users to manage a dynamic movie collection, add new movies, search by title, filter by watched status, toggle watched/unwatched state, and delete movies.
+---
 
-## Live Demo
+## 📸 Preview
 
-Live URL: https://cine-track-nine.vercel.app
+```text
+<img width="1836" height="854" alt="Screenshot 2026-07-03 194129" src="https://github.com/user-attachments/assets/7a2c68c0-dd4d-4b09-80a5-f79e8ec33900" />
+```
 
+## 🚀 Live Demo
 
-## Features
+🔗 **Live Site:** https://cine-track-nine.vercel.app
 
-- Responsive movie dashboard with premium card layout
-- Add new movie using modal form
-- Client-side form validation
-- Search movies by title in real time
-- Filter movies by status:
+---
+
+## 📂 Repository
+
+GitHub: https://github.com/raselahmed2023/cineTrack
+
+---
+
+## ✨ Features
+
+-  Responsive movie dashboard with a clean and modern UI
+-  Add new movies using a modal form
+-  Client-side form validation
+-  Real-time movie search by title
+-  Filter movies by status:
   - All Movies
   - Watched
   - Unwatched
-- Toggle movie status between watched and unwatched
-- Delete movies from the collection
-- LocalStorage persistence
-- Artificial loading spinner on initial load
-- Broken poster image fallback
-- Reset collection option
+-  Toggle movie status between watched and unwatched
+-  Delete movies from the collection
+-  LocalStorage persistence
+-  Artificial loading spinner on initial load
+-  Graceful fallback for broken movie poster images
+-  Reset movie collection to default data
+-  Fully responsive design for desktop, tablet, and mobile devices
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
 
 - React.js
-- JavaScript
+- JavaScript (ES6+)
 - Vite
 - Tailwind CSS
-- LocalStorage
+- LocalStorage API
 
-## Project Structure
+---
 
-```txt
-cinetrack/
+## 📁 Project Structure
+
+```text
+cineTrack/
 ├── public/
 ├── src/
 │   ├── components/
@@ -52,28 +70,28 @@ cinetrack/
 │   ├── index.css
 │   └── main.jsx
 ├── .gitignore
-├── README.md
 ├── eslint.config.js
 ├── index.html
 ├── package.json
 ├── package-lock.json
+├── README.md
 └── vite.config.js
-````
+```
 
-## Installation and Local Setup
+---
 
-Follow these steps to run the project locally.
+## ⚙️ Installation & Local Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/raselahmed2023/cineTrack
+git clone https://github.com/raselahmed2023/cineTrack.git
 ```
 
-### 2. Go to the project folder
+### 2. Navigate to the project folder
 
 ```bash
-cd cinetrack
+cd cineTrack
 ```
 
 ### 3. Install dependencies
@@ -88,17 +106,26 @@ npm install
 npm run dev
 ```
 
-### 5. Open the app in browser
+### 5. Open in your browser
 
-```txt
+```text
 http://localhost:5173
 ```
 
-## Data Management
+---
 
-This project uses hardcoded initial movie data and browser LocalStorage for client-side persistence. When users add, delete, or update watched status, the changes are saved in LocalStorage and remain available after page refresh.
+## 💾 Data Management
 
+This project uses hardcoded initial movie data together with the browser's **LocalStorage API** for client-side persistence.
 
+Users can:
 
+- Add new movies
+- Update watched/unwatched status
+- Delete movies
+- Reset the movie collection
 
+All changes are automatically saved to LocalStorage and remain available even after refreshing the page.
+
+---
 
